@@ -57,6 +57,14 @@
     "javascript": "javascriptreact"
   },
 
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".git/", ".vim/", ".hg/"],
+      "filetypes": ["go"]
+    }
+  },
+
   // explorer
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,

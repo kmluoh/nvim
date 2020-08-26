@@ -71,6 +71,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mattn/emmet-vim'
   " Interactive code
   Plug 'metakirby5/codi.vim'
+  " golang
+  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
   " Debugging
   " Plug 'puremourning/vimspector'
   " Better tabline
